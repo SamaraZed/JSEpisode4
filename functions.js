@@ -7,6 +7,9 @@
  ****************************************************************/
 function getBookById(bookId, books) {
   // Your code goes here
+  if (!books.id(bookId) return undefined;
+  const details = books.find(book => book.id === bookId);
+  return details;
 }
 
 /**************************************************************
